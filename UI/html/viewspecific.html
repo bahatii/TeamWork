@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/UI/css/viewspecific.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+</head>
+
+<body>
+
+    <div id="navbar">
+
+        <a href="#default" id="logo">Team-<span class="highlght">Work</span> </a>
+
+        <div class="topnav" id="navbar-right">
+            <a class="active" href="/UI/html/myarticles.html">My Articles</a>
+            <a href="/UI/html/homepage.html"><i class="fa fa-home"></i>New Feeds</a>
+            <a href="#">Profile</a>
+            <a href="/UI/index.html">sign out</a>
+
+        </div>
+    </div>
+
+    <div class="main-section">
+
+
+        <div class="title">
+            Discover our data center locations
+
+        </div>
+
+        <div class="post-owner">
+            <div class="post-owner-photos"><img class="profile-pic" src="/UI/assets/images/profile-pic2.jpg"></div>
+            <div class="post-owner-name"> Bahati Irene</div>
+            <div class="date"> 25th june 2019</div>
+        </div>
+
+
+        <div class="photos-container"><img class="post-photos" src="/UI//assets/images/post5.jpg""></div>
+
+        <div class=" article">
+            Location History is a Google Account–level setting that saves where you go with
+            every mobile device where:You're signed in to your Google Account,
+            You have turned on Location History, and
+            The device has Location Reporting turned on When you turn on Location History, you may see a number of
+            benefits across Google products and services,
+            including personalized maps, recommendations based on places you’ve visited, help finding your phone
+            You can change the Location Reporting setting for each device where you're signed in, and limit which
+            devices provide location data to be included in Location History. If you want to change your Location
+            History settings, you can choose to:
+            <br> <br>
+            Report your location from only some of your devices, but not others.
+            Report your location from all your devices.
+            Turn off Location History for your Google Account. Your location won't be reported from any of your devices
+            and you will not have new Location History recorded to your account.
+            Your settings for other location services on your device, like Google Location Services and Find My Device,
+            including personalized maps, recommendations based on places you’ve visited, help finding your phone
+            You can change the Location Reporting setting for each device where you're signed in, and limit which
+            devices provide location data to be included in Location History. If you want to change your Location
+            History settings, you can choose to:
+            <br> <br> <br>
+            Report your location from only some of your devices, but not others.
+            Report your location from all your devices.
+            Turn off Location History for your Google Account. Your location won't be reported from any of your devices
+            and you will not have new Location History recorded to your account.
+            Your settings for other location services on your device, like Google Location Services and Find My Device,
+        </div>
+        <div class="comment-section">
+            <div class="likes">
+                <i class="fa fa-thumbs-up"></i> 25 . 2 comments
+            </div>
+            <div class="comment">
+                <div><i class="fa fa-thumbs-up"></i> Like</div>
+                <div><i class="far fa-comment-alt"></i> Comment</div>
+            </div>
+
+            <div class="comments">
+
+                <div class="comment-one">
+                    <img class="profile-pic" src="/UI/assets/images/profile-pic.png">
+
+                    <div class="com"> hello i think this is post is nice</div>
+                </div>
+
+                <div class="comment-one">
+                    <img class="profile-pic" src="/UI/assets/images/profile-pic2.jpg">
+
+                    <div class="com">hello i think this is post is nice</div>
+
+                </div>
+
+                <div class="write-comment">
+                    <input type="text" placeholder="write comment here ....">
+                    <button class="com-button">post comment</button>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>NR 7 nyamirambo streetKIGALI, Rwanda</p>
+        <p>© 2019 All Right Reserved to TeamWork</p>
+    </footer>
+
+
+
+</body>
+
+</html>
+
+<script>
+    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("navbar").style.padding = "10px 10px";
+            document.getElementById("logo").style.fontSize = "30px";
+        } else {
+            document.getElementById("navbar").style.padding = "15px 15px";
+            document.getElementById("logo").style.fontSize = "30px";
+        }
+    }
+</script>
