@@ -23,16 +23,17 @@
 
     <div class="main-section">
         <div class="header">
-            <div class="title">Add Article</div>
+            <div class="title">Edit Article</div>
         </div>
         <form action="myarticles.html">
             <label>write the Title</label>
-            <div class="headline"> <input type="text" placeholder="Title"></div>
+            <div class="headline"> <input type="text" placeholder="Title" required></div>
             <label>write the Article</label>
-            <div class="content"> <textarea> </textarea></div>
+            <div class="content"> <textarea required> </textarea></div>
             <label for="file">add a photos (optional)</label>
-            <div class="photos"> <input type="file" class="photos-file" value="choose photos"></div>
-            <div class="post"><input type="submit" value="Post" name="post">
+            <div class="photos"> <input type="file" class="photos-file" value="choose photos">
+            </div>
+            <div class="post"><input type="submit" value="Apply Changes" name="post">
             </div>
 
         </form>

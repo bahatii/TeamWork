@@ -8,9 +8,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    background-color: whitesmoke;
-}
 
 .main-wrapper {
     background-color: white;
@@ -31,10 +28,10 @@ body {
 
 .left-wrapper {
     flex: 1;
-    background: url('../assets/images/bghome.jpg') no-repeat top center;
-    background-size: cover;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    background: url('../assets/images/background.png') no-repeat top center;
+    background-size: cover;
 
 
 
@@ -85,12 +82,6 @@ body {
     margin-bottom: 10px;
 }
 
-.welcome-text {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-
-}
 
 .input-fields-1 input[ type="text"],
 input[type="email"],
@@ -114,7 +105,6 @@ input[type="email"],
 input[type="password"],
 select {
     margin: 10px 0;
-    background: transparent;
     border-radius: 20px;
     border: 2px solid whitesmoke;
     padding-left: 20px;
@@ -124,7 +114,9 @@ select {
     font-size: 15px;
 }
 
-.sign-up button {
+
+
+.btn {
     width: 200px;
     background: #00796B;
     border-radius: 20px;
@@ -132,12 +124,14 @@ select {
     color: white;
     padding: 15px;
     width: 80%;
+    cursor: pointer;
 
 }
 
-.sign-up button:hover {
+.sign-up input[type="submit"]:hover {
     background-color: black;
     color: white;
+
 }
 
 
@@ -148,14 +142,20 @@ select {
 }
 
 .welcome-sign-in {
-    width: 200px;
-    background: rgba(0, 0, 0, 0.1);
-    color: white;
-    border: 3px;
-    border-radius: 50px;
+    margin-top: 360px;
     border: 1px solid white;
-    padding: 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 10px;
+    width: 60%;
     margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    margin-bottom: 90%;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
 
 }
 
@@ -215,11 +215,12 @@ select {
         }
 
         .left-wrapper {
-            background: url('../assets/images/bghome.jpg') no-repeat top center;
+            background: url('../assets/images/background.png') no-repeat top center;
             background-size: cover;
             width: 100%;
             flex: 1;
             padding-bottom: 10%;
+            max-height: 200px;
 
             border-bottom-left-radius: 10px;
             border-top-right-radius: 10px;
@@ -228,6 +229,8 @@ select {
 
 
         }
+
+
 
         .right-wrapper {
 
@@ -267,12 +270,7 @@ select {
             margin-bottom: 10px;
         }
 
-        .welcome-text {
-            text-align: center;
-            margin-top: 40px;
-            margin-bottom: 40px;
 
-        }
 
 
 

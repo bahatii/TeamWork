@@ -143,42 +143,31 @@ body {
     width: 94%;
     margin-left: 3%;
 
-
 }
 
 .likes {
 
-    font-size: 20px;
+    font-size: 30px;
+    color: #00796B;
     padding: 10px;
     display: inline block;
     border-bottom: 1px solid #00796B;
+    cursor: pointer;
+
 
 }
 
-.comment {
+.likes:hover {
+    color: red;
 
-    display: flex;
-    border-bottom: 1px solid #00796B;
-    font-size: 20px;
-    padding: 10px;
-    justify-content: space-between;
-    width: 94%;
 }
+
 
 .comments {
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.comment-one {
-
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -201,27 +190,34 @@ body {
 .write-comment input[type="text"] {
     margin-top: 25px;
     display: block;
-    border: 1px solid black;
-    border-radius: 15px;
+    border: 1px solid grey;
+    border-radius: 25px;
     width: 94%;
     text-align: center;
-    font-size: 16px;
-    padding: 20px;
+    font-size: 15px;
+    padding: 12px;
     box-shadow: black;
+    outline: none;
 
 }
 
 .write-comment button {
 
-    width: 50%;
+    width: 30%;
     padding: 15px;
     background-color: #00796B;
     margin-top: 10px;
     border: 1px solid black;
     color: white;
-    border-radius: 15px;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
 
+}
 
+.write-comment button:hover {
+    background-color: black;
+    color: white;
 }
 
 
