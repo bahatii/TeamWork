@@ -80,27 +80,22 @@ body {
 
 }
 
-.title {
-    float: left;
-    font-size: 40px;
-    color: #00796B;
-    margin-top: 50px;
+.articles-header button {
+    float: right;
+    width: 20%;
+    background-color: #00796B;
+    border-radius: 25px;
+    color: white;
+    margin: 50px;
+    outline: none;
+    padding: 15px;
+    border: 1px solid whitesmoke;
+
 }
 
-
-.write-article {
-    float: right;
-    width: 15%;
-    background-color: #00796B;
+.articles-header button:hover {
+    background-color: black;
     color: white;
-    border: 1px;
-    border-radius: 2px;
-
-    margin-top: 50px;
-    margin-right: 20px;
-    padding: 10px;
-    ;
-
 }
 
 .post-wrapper {
@@ -174,17 +169,49 @@ body {
 
 }
 
+.comment-section {
+    display: block;
+    border-top: 1px solid #00796B;
+    padding-top: 10px;
+    margin-top: 5px;
+    border-bottom: 1px solid #00796B;
+    margin-bottom: 10px;
+}
+
 .comment {
     display: flex;
-    border-bottom: 1px solid #00796B;
     font-size: 20px;
-    padding: 10px;
+    padding-bottom: 5px;
+
 }
 
 .comment div {
     margin-left: 20px;
     margin-right: 20px;
+    padding-left: 12px;
+    padding-left: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
+
+.comment i {
+    font-size: 25px;
+    color: #00796B;
+
+}
+
+.comment i:hover {
+    font-size: 25px;
+    color: red;
+}
+
+.comment div:hover {
+    color: black;
+    cursor: pointer;
+    background-color: whitesmoke;
+
+}
+
 
 @media screen and (max-width: 900px) {
 
@@ -264,6 +291,9 @@ body {
         width: 100%;
     }
 
+    .articles-header button {
+        width: 50%;
+    }
 
     .filter {
         display: flex;

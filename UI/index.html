@@ -3,46 +3,44 @@
 
 <head>
     <title>index</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
 </head>
 
 <body>
     <div class="main-wrapper">
 
         <div class="left-wrapper">
-            <div class="welcome-text">
-                <p class="title">Welcome to Teamwork</p>
-                <p>team work is a
-                    social media app fo
-                    r collueges who want to interact</p>
 
+            <div class="welcome-sign-in" onclick="location.href='html/sign-in.html'">SIGN IN
             </div>
-            <a id="1" href="html/sign-in.html"><button class="welcome-sign-in"> SIGN IN</button></a>
         </div>
 
 
 
         <div class="right-wrapper">
-            <form>
+            <form action="homepage.html">
                 <center>
-                    <div class="head"> Create Account</div>
+                    <div class="head">
+                        Welcome to TeamWork <br><br>
+                        Create Account
+                    </div>
                 </center>
 
                 <div class="sign-up-form">
                     <div class="input-fields-1">
-                        <input type="text" class="input" placeholder="First Name">
-                        <input type="text" class="input" placeholder="Last Name ">
-                        <input type="text" class="input" placeholder="Email Address">
-                        <input type="password" name="password" placeholder="password">
-                        <input type="password" name="password" placeholder="comfirm-password">
+                        <input type="text" class="input" placeholder="First Name" required>
+                        <input type="text" class="input" placeholder="Last Name " required>
+                        <input type="text" class="input" placeholder="Email Address" required>
+                        <input type="password" name="password" placeholder="password" required>
+                        <input type="password" name="password" placeholder="comfirm-password" required>
 
 
                     </div>
                     <div class="input-fields-2">
 
-                        <input type="text" class="input" placeholder="job role">
-                        <input type="text" class="input" placeholder="departement">
-                        <input type="text" class="input" placeholder="Adress">
+                        <input type="text" class="input" placeholder="job role" required>
+                        <input type="text" class="input" placeholder="departement" required>
+                        <input type="text" class="input" placeholder="Adress" required>
 
                         <select>
                             <option> choose gender</option>
@@ -54,11 +52,11 @@
 
                 </div>
 
-
+                <div class="sign-up">
+                    <input class="btn" type="submit" value="SIGN UP">
+                </div>
             </form>
-            <div class="sign-up">
-                <a href="/UI/html/sign-in.html"><button class="sign up">SIGN UP</button></a>
-            </div>
+
 
         </div>
 
