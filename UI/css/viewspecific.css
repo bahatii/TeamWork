@@ -157,6 +157,39 @@ body {
 
 }
 
+.commentators {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.commentators #first,
+#second {
+    display: flex;
+    flex-direction: column;
+    min-height: 40px;
+    padding: 10px;
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+#second,
+#first div {
+    border-bottom: 1px solid whitesmoke
+}
+
+.commenators-name {
+    font: size 12;
+    font-weight: bold;
+}
+
+
 .likes:hover {
     color: red;
 
@@ -284,6 +317,8 @@ body {
             width: 92%;
             margin-left: 4%;
         }
+
+
 
     }
 }
